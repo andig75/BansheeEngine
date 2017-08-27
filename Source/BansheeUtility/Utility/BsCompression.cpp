@@ -10,7 +10,7 @@
 
 namespace bs
 {
-	/** Source accepting a data stream. Used for Snappy compression library. */
+	/** Source accepting a data stream. Used for snappy compression library. */
 	class DataStreamSource : public snappy::Source
 	{
 	public:
@@ -74,7 +74,7 @@ namespace bs
 		size_t mBufferOffset;
 	};
 
-	/** Sink (destination) accepting a data stream. Used for Snappy compression library. */
+	/** Sink (destination) accepting a data stream. Used for snappy compression library. */
 	class DataStreamSink : public snappy::Sink
 	{
 		struct BufferPiece
